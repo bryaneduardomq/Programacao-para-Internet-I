@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cálculo Peso</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<script language="javascript" type="text/javascript">
+	var altura, genero, media;
+
+	altura=window.prompt("Qual a sua altura? ", " ");
+	genero=window.prompt("Qual o seu gênero? ", " ");
+
+	if (genero = "masculino") {
+		media = (72.7*parseFloat(altura)) - 58;
+	} else if (genero = "feminino") {
+		media= (62.1*parseFloat(altura)) - 44.7;
+	}
+	else {alert("Digite Outra Vez!");}
+	
+	alert("Seu peso ideal é: "+media);
+</script>
+</body>
+</html>

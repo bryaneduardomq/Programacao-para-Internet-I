@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Média Notas</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<script language="javascript" type="text/javascript">
+	var nome, nota1, nota2, media;
+	p1="1.0"; p2="2.0";
+	peso1=parseFloat(p1);
+	peso2=parseFloat(p2);
+		nome=window.prompt("Qual é o seu nome? ", " ");
+		nota1=window.prompt("Qual a sua nota na primeira prova? ", " ");
+		nota2=window.prompt("Qual a sua nota na segunda prova? ", " ");
+		media=((peso1*parseFloat(nota1)) + (peso2*parseFloat(nota2))/(peso1+peso2))
+		//alert("Seu nome: " +nome);
+		if (media > 6.0)
+			{alert(nome + ", você foi aprovado!!");}
+		else {alert("Você foi reprovado!!");}
+</script>
+</body>
+</html>

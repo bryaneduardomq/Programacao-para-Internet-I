@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Revendedora de Carros</title>
+		<meta charset="utf-8">
+</head>
+<body>
+<script language="javascript" type="text/javascript">
+	var numero, salario, numcarros, comissao, media;
+		numero=window.prompt("Qual é seu número de identificação? ", " ");
+		salario=window.prompt("Qual é o seu salário?", " ");
+		numcarros=window.prompt("Qual o seu número de carros vendidos?", " ");
+		comissao=window.prompt("Qual sua comissão por carro vendido?", " ")
+		media = (parseFloat(salario)+(comissao*parseInt(numcarros)));
+		document.write("Seu número de identificação: " + numero);
+		document.write("<br>Seu salário: " +media);
+</script>
+</body>
+</html>
